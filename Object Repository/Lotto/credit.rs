@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Lob</name>
+   <name>credit</name>
    <tag></tag>
-   <elementGuidId>68c6b975-f895-4308-961a-b74899cdb747</elementGuidId>
+   <elementGuidId>3ea8dcf2-561f-4b9b-8e8a-02d3b8c2502e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='menu_title']</value>
+         <value>//a[@id='changecredit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

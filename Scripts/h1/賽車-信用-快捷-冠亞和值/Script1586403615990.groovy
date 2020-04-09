@@ -28,33 +28,33 @@ WebUI.click(findTestObject('h1/play'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementClickable(findTestObject('Lob'), 0)
+WebUI.waitForElementClickable(findTestObject('Lotto/Lob'), 0)
 
 Thread.sleep(3000)
 
-WebUI.mouseOver(findTestObject('Lob'))
+WebUI.mouseOver(findTestObject('Lotto/Lob'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('car'))
+WebUI.click(findTestObject('Lotto/car'))
 
 WebUI.maximizeWindow()
 
-WebUI.switchToFrame(findTestObject('iframe'), 0)
+WebUI.switchToFrame(findTestObject('Lotto/iframe'), 0)
 
-WebUI.waitForElementClickable(findTestObject('credit'), 0)
+WebUI.waitForElementClickable(findTestObject('Lotto/credit'), 0)
 
-WebUI.click(findTestObject('credit'))
+WebUI.click(findTestObject('Lotto/credit'))
 
-WebUI.waitForElementClickable(findTestObject('冠亞和值'), 0)
+WebUI.waitForElementClickable(findTestObject('CarObj/冠亞和值'), 0)
 
-WebUI.click(findTestObject('冠亞和值'))
+WebUI.click(findTestObject('CarObj/冠亞和值'))
 
-WebUI.waitForElementClickable(findTestObject('fastmode'), 0)
+WebUI.waitForElementClickable(findTestObject('Lotto/fastmode'), 0)
 
-WebUI.scrollToElement(findTestObject('fastmode'), 0)
+WebUI.scrollToElement(findTestObject('Lotto/fastmode'), 0)
 
-WebUI.click(findTestObject('fastmode'))
+WebUI.click(findTestObject('Lotto/fastmode'))
 
 WebDriver myDriver = DriverFactory.getWebDriver()
 

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>car</name>
+   <name>iframe</name>
    <tag></tag>
-   <elementGuidId>b070a6f8-37c0-4e42-8c82-955438de8508</elementGuidId>
+   <elementGuidId>62892a72-2fab-4e75-9335-7381b3b29aa0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick='linkmg(37,&quot;gCAR-main&quot;)']</value>
+         <value>//iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

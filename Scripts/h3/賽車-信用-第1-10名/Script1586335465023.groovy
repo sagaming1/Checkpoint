@@ -11,13 +11,13 @@ WebUI.click(findTestObject('h1/play'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.click(findTestObject('Lob'))
+WebUI.click(findTestObject('Lotto/Lob'))
 
-WebUI.click(findTestObject('car'))
+WebUI.click(findTestObject('Lotto/car'))
 
-WebUI.switchToFrame(findTestObject('iframe'), 0)
+WebUI.switchToFrame(findTestObject('Lotto/iframe'), 0)
 
-WebUI.click(findTestObject('credit'))
+WebUI.click(findTestObject('Lotto/credit'))
 
 WebDriver myDriver = DriverFactory.getWebDriver()
 
